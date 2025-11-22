@@ -12,7 +12,9 @@ public class f1 {
         scanner.close();
  System.out.print("Loading...");
 try {
+    
     Thread.sleep(3000);
+    
 } catch (InterruptedException e) {
     e.printStackTrace();
 }
@@ -27,3 +29,4 @@ System.out.print("\r");
 
     }
 }
+
